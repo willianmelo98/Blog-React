@@ -1,0 +1,39 @@
+.pagePost {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buttonCadastro {
+  display: block;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px black solid;
+  width: 150px;
+  height: 30px;
+}
+
+.formPost {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 320px;
+  padding: 10px;
+  border: 1px black solid;
+  border-radius: 15px;
+  margin: 100px 5px;
+}
+
+.formPost input{
+    width: 300px;
+    padding: 5px;
+    margin: 5px;
+}
+.formPost button{
+    margin-top: 10px;
+    padding: 3px 25px;
+}
